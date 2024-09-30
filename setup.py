@@ -1,3 +1,4 @@
+
 from setuptools import setup, find_packages
 
 setup(
@@ -7,8 +8,7 @@ setup(
     install_requires=[
             'Jinja2==3.1.4',
             'MarkupSafe==2.1.5',
-            'PyYAML==6.0.2',
-            'pytest==7.0.1',
+            'PyYAML==6.0.2'
         ],
     entry_points={
         'console_scripts': [
