@@ -9,6 +9,7 @@
 import pytest
 import sys
 from ektabuild.cli import parse_args
+from ektabuild.main import main
 
 def test_parse_args_with_required_arguments():
     args = parse_args(['--config', 'config.yaml'])

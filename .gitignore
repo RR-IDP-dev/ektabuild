@@ -13,3 +13,17 @@ venv/
 
 # Other
 .env
+
+build/
+dist/
+*.egg-info/
+*.egg/
+*.log
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.bak
+*.tmp
+*.out
+
